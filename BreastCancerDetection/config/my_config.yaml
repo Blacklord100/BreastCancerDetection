@@ -1,0 +1,30 @@
+---
+#config_path : "../config/"
+# Config file
+
+data_path_settings:
+  data_directory: ../data/
+  data_name: breast-cancer-wisconsin.data
+
+preprocessing_settings:
+  replace:
+    question_mark: -9999.0
+  drop_columns:
+    - "id"
+    
+data_split_settings:    
+  test_size: 0.2
+  target_name: class
+
+model_settings:
+  n_neighbors: 5
+  weights: uniform
+  algorithm: auto
+  leaf_size: 15
+  p: 2
+  metric: minkowski
+  n_jobs: 1
+
+model_output:
+  model_directory: ../models/
+  model_name: KNN_classifier
