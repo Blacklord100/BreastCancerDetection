@@ -1,3 +1,5 @@
 .vscode
 .ipynb_checkpoints
-BreastCancer_env
+BreastCancerDetection_env
+__pycache__
+BreastCancerDetection.egg-info

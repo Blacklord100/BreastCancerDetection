@@ -3,7 +3,7 @@
 # Config file
 
 data_path_settings:
-  data_directory: ../data/
+  data_directory: BreastCancerDetection/data/
   data_name: breast-cancer-wisconsin.data
 
 preprocessing_settings:
@@ -26,5 +26,5 @@ model_settings:
   n_jobs: 1
 
 model_output:
-  model_directory: ../models/
+  model_directory: BreastCancerDetection/models/
   model_name: KNN_classifier

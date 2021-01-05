@@ -5,7 +5,7 @@ import datetime
 
 import pandas as pd
 
-def load_config(config_name="my_config.yaml", config_path="../config/"):
+def load_config(config_name="my_config.yaml", config_path="BreastCancerDetection/config/"):
     with open(os.path.join(config_path, config_name),"r") as file:
         config = yaml.safe_load(file)
     return config

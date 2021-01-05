@@ -5,7 +5,7 @@ import datetime
 import argparse
 import pandas as pd
 
-import helpers
+from BreastCancerDetection.src import helpers
 
 
 config = helpers.load_config()

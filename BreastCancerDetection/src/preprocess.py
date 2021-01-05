@@ -7,7 +7,7 @@ import os
 import yaml
 import argparse
 
-import helpers
+from BreastCancerDetection.src import helpers
 
 #data = pd.read_csv(os.path.join("../data/", "breast-cancer-wisconsin.data"))
 
